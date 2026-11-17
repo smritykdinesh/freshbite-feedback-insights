@@ -1,0 +1,30 @@
+id,text,true_sentiment,sentiment,true_theme,theme,true_urgency,urgency
+1,Order arrived 55 minutes late and the food was cold. Third time this month.,negative,negative,delivery_delay,delivery,medium,high
+2,Love the new menu variety. Everything arrived hot and on time!,positive,positive,food_quality,food,low,low
+3,I was charged twice for the same order. Need a refund ASAP.,negative,negative,payment_issue,payment,high,high
+4,App crashes every time I try to apply a promo code at checkout.,negative,negative,app_bug,technical_issue,medium,high
+5,Good food overall but delivery fees are getting too high for daily use.,neutral,negative,pricing,pricing,low,medium
+6,Support took 4 days to reply about my missing item. Very frustrating.,negative,negative,customer_support,support,medium,low
+7,Best meal service in my area. Driver was super polite.,positive,positive,other,service,low,low
+8,Search is useless. I type 'vegan' and get burgers.,negative,negative,other,search,medium,high
+10,Cannot update my delivery address in the app. It keeps reverting to the old one.,negative,negative,app_bug,technical_issue,medium,high
+11,Nice UI and easy reordering. Wish there was a dark mode.,positive,positive,feature_request,product,low,low
+12,Order never arrived and the app marked it as delivered.,negative,negative,delivery_delay,delivery,high,high
+13,The loyalty rewards are great. Saved a lot this month.,positive,positive,other,loyalty,low,low
+14,My payment failed but money was deducted from my account.,negative,negative,payment_issue,payment,high,high
+15,Delivery estimates are always wrong. Says 20 minutes then takes an hour.,negative,negative,delivery_delay,delivery,medium,low
+16,Fresh ingredients and good packaging. Would like more vegetarian options.,positive,positive,food_quality,product,low,low
+17,Customer service was polite but could not actually fix my issue.,negative,negative,customer_support,service,medium,medium
+18,App froze during payment and I had to place the order again.,negative,negative,app_bug,technical_issue,medium,high
+19,Please add a way to schedule orders in advance for weekdays.,neutral,positive,feature_request,feature_request,low,low
+20,Fast delivery and the food quality has really improved.,positive,positive,food_quality,product,low,low
+21,Too many hidden fees at checkout. Service fee plus delivery fee plus tax adds up.,negative,negative,pricing,checkout,medium,medium
+22,Great taste. Live order tracking is helpful but sometimes lags.,positive,positive,food_quality,product,low,low
+23,Received the wrong order and support chat kept disconnecting.,negative,negative,delivery_delay,order,medium,high
+24,Notifications are spammy. I get 5 promo pushes a day.,negative,negative,other,notifications,medium,medium
+25,Customer support resolved my issue in 10 minutes. Impressive.,positive,positive,customer_support,support,low,low
+26,Food is fine but delivery takes longer on weekends.,neutral,neutral,delivery_delay,delivery,low,medium
+27,Login keeps failing after the latest update. Cannot place any orders.,negative,negative,app_bug,technical_issue,high,high
+28,Allergen information is missing for several dishes. This is a safety concern.,negative,negative,safety_concern,safety,high,high
+29,Love the subscription plan but wish I could pause it without cancelling.,positive,neutral,feature_request,subscription,low,low
+30,Driver left my order at the wrong building and would not respond.,negative,negative,delivery_delay,delivery,medium,high

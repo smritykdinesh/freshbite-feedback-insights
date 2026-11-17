@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Improved Delivery Tracking and Estimation",
+    "user_story": "As a customer, I want to receive accurate delivery estimates and tracking information so that I can plan my day accordingly and avoid delays.",
+    "acceptance_criteria": [
+      "Delivery estimates are accurate within 10 minutes",
+      "Real-time tracking of order status",
+      "Notification system for delivery delays",
+      "Support chat is always available and responsive",
+      "Driver is held accountable for incorrect deliveries"
+    ],
+    "assumptions": [
+      "Customer has a stable internet connection",
+      "Driver has access to GPS and real-time traffic updates",
+      "Support team is available during business hours"
+    ],
+    "open_questions": [
+      "How will the system handle delivery delays due to traffic or road closures?",
+      "Can the system provide a reason for the delay?",
+      "How will the driver be incentivized to provide accurate delivery estimates and tracking information?"
+    ],
+    "theme": "delivery_delay",
+    "priority": "high",
+    "source_ids": [
+      1,
+      12,
+      15,
+      23,
+      30
+    ]
+  },
+  {
+    "title": "Fix App Bugs",
+    "user_story": "As a user, I want to be able to apply promo codes, search for products, update my delivery address, complete payments, receive relevant notifications, and log in successfully, so I can have a seamless shopping experience.",
+    "acceptance_criteria": [
+      "App should not crash when applying promo codes",
+      "Search functionality should return relevant results",
+      "User should be able to update delivery address successfully",
+      "App should not freeze during payment",
+      "Notifications should be relevant and not spammy",
+      "Login should work successfully after the latest update"
+    ],
+    "assumptions": [
+      "User has a stable internet connection",
+      "User has a valid promo code",
+      "User has a valid login credentials"
+    ],
+    "open_questions": [
+      "How many promo codes should be available for users to apply?",
+      "What is the optimal search query length for relevant results?",
+      "What is the ideal frequency for notifications?",
+      "What is the maximum allowed number of failed login attempts before account lockout?"
+    ],
+    "theme": "app_bug",
+    "priority": "high",
+    "source_ids": [
+      4,
+      8,
+      10,
+      18,
+      24,
+      27
+    ]
+  },
+  {
+    "title": "Payment Issue Refund and Deduction",
+    "user_story": "As a customer, I want to be able to request a refund for a duplicate charge and have my payment failed transaction reversed, so that I can avoid financial loss.",
+    "acceptance_criteria": [
+      "The system allows customers to request a refund for a duplicate charge.",
+      "The system reverses the payment failed transaction and credits the customer's account.",
+      "The system notifies the customer of the refund and transaction reversal within 24 hours.",
+      "The system provides a clear explanation of the refund and transaction reversal process.",
+      "The system ensures that the refund and transaction reversal are processed within 3 business days.",
+      "The system provides a secure and reliable payment processing system.",
+      "The system allows customers to track the status of their refund and transaction reversal requests.",
+      "The system provides a clear and concise error message when a payment failed transaction is detected.",
+      "The system provides a clear and concise error message when a duplicate charge is detected.",
+      "The system ensures that the customer's account is updated to reflect the refund and transaction reversal.",
+      "The system provides a clear and concise explanation of the refund and transaction reversal process to the customer's support team."
+    ],
+    "assumptions": [
+      "The customer has a valid payment method on file.",
+      "The customer has a valid email address on file.",
+      "The system has the necessary permissions to process refunds and transaction reversals.",
+      "The system has the necessary permissions to update customer accounts."
+    ],
+    "open_questions": [
+      "How will the system handle cases where the customer's payment method is invalid?",
+      "How will the system handle cases where the customer's account is overdrawn?",
+      "What is the process for escalating a refund or transaction reversal request to a support team?",
+      "How will the system communicate with the customer regarding the status of their refund and transaction reversal request?"
+    ],
+    "theme": "payment_issue",
+    "priority": "high",
+    "source_ids": [
+      3,
+      14
+    ]
+  },
+  {
+    "title": "Optimize Pricing for Daily Use",
+    "user_story": "As a daily user of the service, I want to be able to order food without excessive delivery fees, so that I can continue to use the service without breaking the bank.",
+    "acceptance_criteria": [
+      "Delivery fees should not exceed 10% of the total order value",
+      "Portion sizes should be adjusted to maintain a consistent price point",
+      "All fees should be clearly displayed at checkout, including service fee, delivery fee, and tax"
+    ],
+    "assumptions": [
+      "Customers will continue to order daily",
+      "Service will continue to operate with the same pricing structure"
+    ],
+    "open_questions": [
+      "How will the service handle price increases for certain menu items?",
+      "Will there be any promotions or discounts to offset the increased fees?"
+    ],
+    "theme": "pricing",
+    "priority": "medium",
+    "source_ids": [
+      5,
+      9,
+      21
+    ]
+  }
+]

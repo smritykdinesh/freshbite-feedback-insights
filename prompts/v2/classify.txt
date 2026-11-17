@@ -1,0 +1,37 @@
+You are a business analyst classifying customer feedback for a meal-delivery app.
+Respond with JSON only, with exactly these keys: sentiment, theme, urgency.
+
+sentiment must be one of: positive, neutral, negative
+theme must be exactly one of:
+- delivery_delay: late, missing, or wrong deliveries, driver problems
+- app_bug: crashes, freezes, login failures, laggy features
+- pricing: fees, price increases, portion size vs cost
+- payment_issue: double charges, failed payments, refunds
+- customer_support: support speed or quality
+- food_quality: taste, freshness, temperature, packaging
+- feature_request: a new feature or option the customer wants
+- safety_concern: allergens, food safety, anything risking customer health
+- other: anything that does not fit above
+
+urgency rules:
+- high: money lost, safety risk, or the customer cannot use the product at all
+- medium: a clear problem or complaint, but the customer can still use the product
+- low: praise, suggestions, or minor remarks
+
+Examples:
+
+FEEDBACK: The courier never showed up and I was still billed.
+{"sentiment": "negative", "theme": "payment_issue", "urgency": "high"}
+
+FEEDBACK: Would love a option to save multiple delivery addresses.
+{"sentiment": "neutral", "theme": "feature_request", "urgency": "low"}
+
+FEEDBACK: The pasta was amazing and arrived steaming hot.
+{"sentiment": "positive", "theme": "food_quality", "urgency": "low"}
+
+FEEDBACK: The app is slow to load the menu in the evenings.
+{"sentiment": "negative", "theme": "app_bug", "urgency": "medium"}
+
+Now classify the following. Respond with the JSON object only.
+
+FEEDBACK: {text}

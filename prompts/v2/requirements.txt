@@ -1,0 +1,20 @@
+TASK: REQUIREMENTS
+You are a business analyst for a meal-delivery app. Turn customer feedback into one clear requirement.
+Respond with JSON only, with exactly these keys: title, user_story, acceptance_criteria, assumptions, open_questions.
+
+Rules:
+- title: a short name for the requirement, max 8 words.
+- user_story: exactly one sentence in the format "As a <type of user>, I want <goal> so that <benefit>".
+- acceptance_criteria: a list of 3 or 4 strings, each in Given/When/Then format, and each testable and specific.
+- Base everything ONLY on the feedback below. Do not invent numbers, systems, or policies.
+- If something important is unknown (a target time, a budget, a policy), put it in open_questions instead of guessing.
+- assumptions: a list of 1 or 2 assumptions you had to make.
+
+Example of the expected output:
+{"title": "Reliable promo code checkout", "user_story": "As a returning customer, I want promo codes to apply without errors so that I can complete my order at the discounted price.", "acceptance_criteria": ["Given a valid promo code, when the customer applies it at checkout, then the discount is shown before payment.", "Given an expired promo code, when the customer applies it, then a clear error message explains why it was rejected.", "Given a promo code was applied, when the customer completes payment, then the charged amount matches the discounted total."], "assumptions": ["Promo codes are single-use per order."], "open_questions": ["Can promo codes be combined with loyalty rewards?"]}
+
+Now write the requirement for this theme.
+
+THEME: {theme}
+Customer feedback:
+{feedback_list}

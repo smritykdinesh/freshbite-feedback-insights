@@ -1,0 +1,100 @@
+[
+  {
+    "title": "Stable Promo Code Checkout and Navigation",
+    "user_story": "As a returning customer, I want promo codes to apply without errors and search results to be accurate so that I can complete my order smoothly.",
+    "acceptance_criteria": [
+      "Given a valid promo code, when the customer applies it at checkout, then the discount is shown before payment.",
+      "Given a valid search query, when the customer submits it, then relevant results are displayed.",
+      "Given a valid promo code, when the customer completes payment, then the charged amount matches the discounted total.",
+      "Given a valid search query, when the customer clicks on a result, then the corresponding order details are displayed."
+    ],
+    "assumptions": [
+      "Promo codes are single-use per order."
+    ],
+    "open_questions": [
+      "Can promo codes be combined with loyalty rewards?"
+    ],
+    "theme": "app_bug",
+    "priority": "high",
+    "source_ids": [
+      4,
+      8,
+      10,
+      18,
+      24,
+      27
+    ]
+  },
+  {
+    "title": "Reliable Delivery Time Estimation",
+    "user_story": "As a customer, I want the delivery time estimate to be accurate and reflect the actual delivery time so that I can plan my day accordingly.",
+    "acceptance_criteria": [
+      "Given a delivery estimate of 30 minutes, when the customer receives a notification of delivery, then the delivery time is within 15 minutes of the estimated time.",
+      "Given a delivery estimate of 1 hour, when the customer receives a notification of delivery, then the delivery time is within 30 minutes of the estimated time.",
+      "Given a delivery estimate of 2 hours, when the customer receives a notification of delivery, then the delivery time is within 1 hour of the estimated time.",
+      "Given a delivery estimate, when the customer reports a delay, then the support team investigates and provides a revised delivery time estimate.",
+      "Given a delivery estimate, when the customer reports a missed delivery, then the support team sends a notification with a revised delivery time estimate and a new estimated delivery time."
+    ],
+    "assumptions": [
+      "Delivery drivers are aware of their estimated delivery time and can provide updates to the app."
+    ],
+    "open_questions": [
+      "What is the maximum acceptable delay for delivery estimates?",
+      "Can delivery drivers provide real-time updates on their location?",
+      "How will missed deliveries be handled in terms of refunds or replacements?"
+    ],
+    "theme": "delivery_delay",
+    "priority": "high",
+    "source_ids": [
+      1,
+      12,
+      15,
+      23,
+      30
+    ]
+  },
+  {
+    "title": "Error handling for payment failures",
+    "user_story": "As a customer, I want the app to notify me of payment failures and offer a refund when I've been charged twice for the same order so that I can resolve the issue quickly.",
+    "acceptance_criteria": [
+      "Given a payment fails, when the customer is notified, then an option to dispute the charge is presented.",
+      "Given a payment failure, when the customer disputes the charge, then a refund is processed within 24 hours.",
+      "Given a duplicate charge, when the customer contacts support, then a refund is issued immediately."
+    ],
+    "assumptions": [
+      "Payment failures are typically due to insufficient funds or expired payment methods."
+    ],
+    "open_questions": [
+      "What is the maximum timeframe for processing a refund after a payment failure?"
+    ],
+    "theme": "payment_issue",
+    "priority": "high",
+    "source_ids": [
+      3,
+      14
+    ]
+  },
+  {
+    "title": "Transparent pricing with clear fees",
+    "user_story": "As a frequent user, I want the total cost of my order to include all applicable fees upfront so that I can budget accurately and avoid surprises.",
+    "acceptance_criteria": [
+      "Given a menu item, when the customer views their order summary, then all applicable fees (delivery, service, tax) are clearly displayed.",
+      "Given a menu item, when the customer completes checkout, then the total cost (including fees) is displayed before final payment.",
+      "Given a menu item, when the customer reviews their order history, then the total cost (including fees) for each order is visible.",
+      "Given a menu item, when the customer requests a refund, then the refund amount (after fees) is processed correctly."
+    ],
+    "assumptions": [
+      "Menu items have a fixed price and no additional charges."
+    ],
+    "open_questions": [
+      "Are there any discounts or promotions that could affect the total cost?"
+    ],
+    "theme": "pricing",
+    "priority": "medium",
+    "source_ids": [
+      5,
+      9,
+      21
+    ]
+  }
+]

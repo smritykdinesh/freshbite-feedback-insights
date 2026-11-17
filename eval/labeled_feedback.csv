@@ -1,0 +1,11 @@
+id,feedback,sentiment,theme,urgency
+1,"The dashboard takes a long time to load every morning.",negative,performance,medium
+2,"I love how easy it is to export my monthly report.",positive,usability,low
+3,"The app crashes when I upload a large file, and I cannot finish my work.",negative,reliability,medium
+4,"Please add a way to filter invoices by payment status.",neutral,billing,low
+5,"I was charged twice for my subscription this month.",negative,billing,medium
+6,"It is hard to find the settings page.",negative,usability,medium
+7,"The new notification summary is helpful.",positive,general,low
+8,"I cannot access my account after resetting my password.",negative,reliability,high
+9,"The colors changed in the latest update.",neutral,general,low
+10,"Search results sometimes show an error and fail to open.",negative,reliability,medium

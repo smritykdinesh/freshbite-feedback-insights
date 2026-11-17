@@ -1,0 +1,7 @@
+TASK: REQUIREMENTS
+Write a user story and acceptance criteria based on this customer feedback.
+Respond with JSON only, with keys: title, user_story, acceptance_criteria (a list of strings), assumptions (a list), open_questions (a list).
+
+THEME: {theme}
+Feedback:
+{feedback_list}

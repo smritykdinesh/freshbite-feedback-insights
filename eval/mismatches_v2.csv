@@ -1,0 +1,14 @@
+id,text,true_sentiment,sentiment,true_theme,theme,true_urgency,urgency
+1,Order arrived 55 minutes late and the food was cold. Third time this month.,negative,negative,delivery_delay,delivery_delay,medium,high
+4,App crashes every time I try to apply a promo code at checkout.,negative,negative,app_bug,app_bug,medium,high
+5,Good food overall but delivery fees are getting too high for daily use.,neutral,negative,pricing,pricing,low,medium
+6,Support took 4 days to reply about my missing item. Very frustrating.,negative,negative,customer_support,customer_support,medium,high
+7,Best meal service in my area. Driver was super polite.,positive,positive,other,customer_support,low,low
+8,Search is useless. I type 'vegan' and get burgers.,negative,negative,other,app_bug,medium,medium
+13,The loyalty rewards are great. Saved a lot this month.,positive,positive,other,pricing,low,low
+19,Please add a way to schedule orders in advance for weekdays.,neutral,positive,feature_request,feature_request,low,low
+22,Great taste. Live order tracking is helpful but sometimes lags.,positive,positive,food_quality,food_quality,low,medium
+23,Received the wrong order and support chat kept disconnecting.,negative,negative,delivery_delay,delivery_delay,medium,high
+24,Notifications are spammy. I get 5 promo pushes a day.,negative,negative,other,app_bug,medium,medium
+26,Food is fine but delivery takes longer on weekends.,neutral,neutral,delivery_delay,food_quality,low,medium
+30,Driver left my order at the wrong building and would not respond.,negative,negative,delivery_delay,delivery_delay,medium,high

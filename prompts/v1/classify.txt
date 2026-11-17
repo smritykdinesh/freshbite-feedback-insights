@@ -1,0 +1,4 @@
+Classify this customer feedback. Respond with JSON only, using keys:
+sentiment (positive/neutral/negative), theme (short label), urgency (low/medium/high).
+
+FEEDBACK: {text}
